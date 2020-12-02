@@ -9,10 +9,11 @@ You can save user id, login state, user headers as arraylist & fetch those value
 
 Add Jitpack on your project level gradle file
 
-```allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
+```
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 		}
 	}
 ```
