@@ -14,8 +14,8 @@ allprojects {
 	repositories {
 		...
 		maven { url 'https://jitpack.io' }
-		}
 	}
+}
 ```
   
 Add Auth Preference on your app level gradle file
