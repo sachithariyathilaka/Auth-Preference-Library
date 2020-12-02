@@ -6,10 +6,10 @@ import android.content.SharedPreferences;
 import java.util.ArrayList;
 
 public class AuthPreference {
-    private SharedPreferences sharedPreferences;
-    private SharedPreferences.Editor editor;
+    public SharedPreferences sharedPreferences;
+    public SharedPreferences.Editor editor;
 
-    private void authUserdata(Context context, int userId, boolean state){
+    public void authUserdata(Context context, int userId, boolean state){
         sharedPreferences = context.getSharedPreferences("User", Context.MODE_PRIVATE);
         editor = sharedPreferences.edit();
         editor.putInt("userId", userId);
@@ -17,7 +17,7 @@ public class AuthPreference {
         editor.apply();
     }
 
-    private void saveUserHeaders(Context context, ArrayList<Headers> headers){
+    public void saveUserHeaders(Context context, ArrayList<Headers> headers){
         sharedPreferences = context.getSharedPreferences("User", Context.MODE_PRIVATE);
         editor = sharedPreferences.edit();
         for(int i = 0; i < headers.size(); i++){
@@ -26,17 +26,17 @@ public class AuthPreference {
         editor.apply();
     }
 
-    private Boolean getUserState(Context context){
+    public Boolean getUserState(Context context){
         sharedPreferences = context.getSharedPreferences("User",Context.MODE_PRIVATE);
         return sharedPreferences.getBoolean("status", false);
     }
 
-    private int getUserId(Context context){
+    public int getUserId(Context context){
         sharedPreferences = context.getSharedPreferences("User",Context.MODE_PRIVATE);
         return sharedPreferences.getInt("userId", 0);
     }
 
-    private ArrayList<Headers> getUserHeaders(Context context, ArrayList<String> headerNames){
+    public ArrayList<Headers> getUserHeaders(Context context, ArrayList<String> headerNames){
         sharedPreferences = context.getSharedPreferences("User",Context.MODE_PRIVATE);
         ArrayList<Headers> headers = new ArrayList<>();
         for(int j =0 ; j<headerNames.size(); j++){
