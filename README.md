@@ -6,18 +6,14 @@ You can save user id, login state, user headers as arraylist & fetch those value
 
 # Instructions 
 
-Add Jitpack on your project level gradle file
-
-allprojects {
+Add Jitpack on your project level gradle file : allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
 	}
   
-Add Auth Preference on your app level gradle file
-
-implementation 'com.github.sachithariyathilaka:AuthPreference:1.1'
+Add Auth Preference on your app level gradle file : implementation 'com.github.sachithariyathilaka:AuthPreference:1.1'
 
 You can use insert user data & headers as using authUserData & saveUserHeaders methods.
 
