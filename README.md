@@ -1,33 +1,19 @@
 # Auth Preference Library
 
-Shared Preference library for save &amp; fetch user data &amp; user headers 
+Shared Preference library for save and fetch user data and user headers. You can save user id, login state, user headers as arraylist & fetch those values 
 
-You can save user id, login state, user headers as arraylist & fetch those values 
+* ### Configuration
+  * https://sachithariyathilaka.medium.com/auth-preference-android-library-1adb605f101c
 
-# Technologies
+* ### Technologies
+  * Java
+  * Android
 
-Java, Android Studio
-
-# Setup Auth Preference
-
-Add Jitpack on your project level gradle file
-
-```
-allprojects {
-	repositories {
-		...
-		maven { url 'https://jitpack.io' }
-	}
-}
-```
-  
-Add Auth Preference on your app level gradle file
-
-```implementation 'com.github.sachithariyathilaka:AuthPreference:1.1'```
-
-# Use Auth Preference
-
-You can use insert user data & headers as using authUserData & saveUserHeaders methods.
-
-Also you can fetch user id, headers & user login state by seperately. 
+* ### Release Note
+  * Release: 1.0.0
+  * Date: 2022/05/22
+  * Module: Project
+  * Changes
+    * Store and retrieve the authentication related user details.
+    * Store and retrieve the user headers related data.
 
