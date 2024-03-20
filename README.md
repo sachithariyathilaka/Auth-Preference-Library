@@ -1,6 +1,6 @@
 # Auth Preference Library
 
-Shared Preference library for save and fetch user data and user headers. You can save user id, login state, user headers as arraylist & fetch those values 
+Shared Preference library for save and fetch user data and user headers. You can save user id, login state, user headers as arraylist & fetch those values. 
 
 * ### Configuration
   * https://sachithariyathilaka.medium.com/auth-preference-android-library-1adb605f101c
