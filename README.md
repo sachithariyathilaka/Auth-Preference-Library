@@ -32,4 +32,10 @@ Shared Preference library for save and fetch user data and user headers. You can
   * Module: Auth Preference Library
   * Changes
     * Bug fixed.
+    
+  * Release: 1.0.3
+  * Date: 2024/03/24
+  * Module: Auth Preference Library
+  * Changes
+    * Bug fixed.
 

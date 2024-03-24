@@ -1,13 +1,15 @@
 package io.github.sachithariyathilaka
 
 import android.content.Context
-import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
+import androidx.test.ext.junit.runners.AndroidJUnit4
 import io.github.sachithariyathilaka.resource.Headers
 import io.github.sachithariyathilaka.resource.UserDetail
-import org.junit.Assert.assertNotNull
+
 import org.junit.Test
 import org.junit.runner.RunWith
+
+import org.junit.Assert.*
 
 /**
  * Instrumented test for the library.

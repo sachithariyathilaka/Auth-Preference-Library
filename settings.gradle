@@ -19,5 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Auth Preference"
-include(":auth-preference")
+rootProject.name = "auth-preference"
+include ':app'
+include ':auth-preference'
