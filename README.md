@@ -7,14 +7,29 @@ Shared Preference library for save and fetch user data and user headers. You can
 
 * ### Technologies
   * Android Development
-  * Java
+  * Java 8
+  * Kotlin 1.9.0
+  * JUnit 4.13.2
   * Gradle
 
 * ### Release Note
-  * Release: 1.0.0
+
+  * Release: 1.0
   * Date: 2022/05/22
   * Module: Auth Preference Library
   * Changes
     * Store and retrieve the authentication related user details.
-    * Store and retrieve the user headers related data.
+    * Store and retrieve the user headers related data. <br><br>
+    
+  * Release: 1.1
+  * Date: 2022/05/22
+  * Module: Auth Preference Library
+  * Changes
+    * Bug fixed. <br><br>
+    
+  * Release: 1.2
+  * Date: 2024/03/24
+  * Module: Auth Preference Library
+  * Changes
+    * New functionality changes added.
 
