@@ -1,3 +1,0 @@
-include ':authPrefLibrary'
-include ':app'
-rootProject.name = "AuthPreference"
