@@ -7,7 +7,7 @@ Shared Preference library for save and fetch user data and user headers. You can
 
 * ### Technologies
   * Android Development
-  * Java 8
+  * Java 17
   * Kotlin 1.9.0
   * JUnit 4.13.2
   * Gradle
